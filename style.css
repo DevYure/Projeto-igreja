@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: ADAM;
+    src: url(fontes/ADAM.CG\ PRO.otf) format(OpenType);
+}
+
+:root {
+--cor0: #F9671A;
+--cor1: #7A330C;
+--cor2:#3B1806;
+--cor3:#E05D16;
+--cor4:#BA4D13;
+
+
+--font-padrão: Arial, Verdana, Helvetica, sans-serif;
+--font-personalizada: 'ADAM', cursive;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: bisque;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(to bottom,#F9671A,#BA4D13,#2E0C0D);
+    padding-top: 100px;
+}
+
+.titulo{
+
+    font-family: var(--font-personalizada);
+    color: white;
+    font-size: 6em;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 30px;
+
+}
+
+.subtitulo{
+
+    font-family: var(--font-personalizada);
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 30px;
+
+}
+
+.ptitulo {
+
+    font-family: var(--font-padrão);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+
+main {
+    min-height: 280px;
+    max-width: 1300px;
+    margin: auto;
+    background-color: white;
+}
+
+nav {
+    background-color: #2E0C0D;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav > a {
+    font-family: var(--font-personalizada);
+    font-size: 1.7em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px
+
+}
+
+nav >a:hover {
+    text-decoration: underline;
+    color: #3B1806;
+    background-color: #f9681a6d;
+    border-radius: 10px;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+.container > h2 {
+
+    font-family: var(--font-personalizada);
+    color: black;
+    font-size: 4em;
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 30px;
+
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo > p {
+    width: 500px;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.conteudo > img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    padding-bottom: 30px;
+}
