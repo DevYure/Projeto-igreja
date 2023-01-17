@@ -5,6 +5,30 @@
     src: url(fontes/ADAM.CG\ PRO.otf) format(OpenType);
 }
 
+@media (max-width: 1200px) {
+    body{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1080px) {
+    body{
+        width: 720px;
+    }
+}
+
+@media (max-width: 750px) {
+    body{
+        width: 480px;
+    }
+}
+
+@media (max-width: 500px) {
+    body{
+        width: 360px;
+    }
+}
+
 * {
     padding: 0px;
     margin: 0px;
