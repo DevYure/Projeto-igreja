@@ -5,34 +5,6 @@
     src: url(fontes/ADAM.CG\ PRO.otf) format(OpenType);
 }
 
-@media (max-width: 1200px) {
-    body{
-        width: 1000px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 1080px) {
-    body{
-        width: 720px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 750px) {
-    body{
-        width: 480px;
-        width: 100%;
-    }
-}
-
-@media (max-width: 500px) {
-    body{
-        width: 360px;
-        width: 100%;
-    }
-}
-
 * {
     padding: 0px;
     margin: 0px;
@@ -281,3 +253,5 @@ header {
     width: 100%;
     margin: auto;
 }
+
+@media 
