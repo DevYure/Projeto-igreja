@@ -254,4 +254,63 @@ header {
     margin: auto;
 }
 
-@media 
+@media (max-width:706px) {
+    .titulo{
+        font-size: 3.5em;
+    }
+}
+
+@media (max-width:588px){
+    .titulo{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width:471px){
+    .titulo{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:353px){
+    .titulo{
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 706px) {
+    .subtitulo{
+        font-size: 2.5em;
+    }
+}
+
+@media (max-width:588px) {
+    .subtitulo{
+        font-size: 2em;
+    }
+}
+
+@media (max-width:471px){
+    .subtitulo{
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width:353px){
+    .subtitulo{
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width:380px) {
+    body{
+        width: 100%;
+    }
+}
+
+@media (max-width:545px){
+    .imagen2{
+        background-position: center center;
+        background-size: cover;
+    }
+}
